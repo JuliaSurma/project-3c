@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page | <%- title="My page" %> </title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <nav class="navbar ">
+      Welcome on Mr.Coffee App!
+    </nav>
+      <a href="/"><h1>Main App Page</h1></a>
+      <h2>Schedule website</h2>
+      <h3>Add new User</h3>
+       <form class="form" id="new-user" method="POST" action="/users">
+        <div class="form-field">
+          <label for="firstname">Firstname</label>
+          <input class="input" id="firstname" name="firstname" type="text" placeholder="Your name"/>
+        </div>
+        <div class="form-field">
+            <label for="lastname">Lastname</label>
+            <input class="input" id="lastname" name="lastname" type ="text" placeholder="Your Lastname"/>
+        </div>
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input class="input" id="email" name="email" type="email" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z0-9.-]{1,}[.]{1}[a-zA-Z0-9]{2,}" placeholder="Your e-mail" />
+        </div>
+        <div class="form-field">
+            <label for="password">Password</label>
+            <input class="input" id="password" name="password" type="password" placeholder="Your password"/>
+          </div>
+        <div class="form-actions">
+        <button class="button" id="user-button" input type="submit">Create user</button>
+        </div>
+      </form>
+    <footer>Copyright Mr Coffee | 2021 </footer>
+</body>
+</html>
+      
+
+
+
+

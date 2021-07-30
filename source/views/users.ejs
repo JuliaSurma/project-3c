@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page | <%- title="My page" %></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar ">
+      Welcome on Mr.Coffee App!
+    </nav>
+  <a href="/"><h1>Main App Page</h1></a>
+  <h2>Schedule website</h2>
+<section class = "alldatas">
+<table class="table table-sm table-dar">
+  <thead>
+    <tr>
+      <th scope="col">firstname</th><br>
+      <th scope="col">secondname</th>
+      <th scope="col">email</th>
+      <th scope="col">password</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <% for(let i = 0; i < users.length; i++) { %>
+        <td><%= users[i].firstname %></td>
+        <td> <%= users[i].lastname %></td>
+        <td><%= users[i].email %></td>
+        <td><%= users[i].password %></td>
+    </tr>
+      <% } %>  
+      </tbody>
+      </table>
+      </table>
+    </section>
+    <button id="myButton1" class="button" >Create new user</button>
+    <script type="text/javascript">
+      document.getElementById("myButton1").onclick = function () {
+          location.href = "/users/new";
+      };
+    </script>
+  <footer>Copyright Mr Coffee | 2021 </footer>
+</body>
+</html> 
+
+

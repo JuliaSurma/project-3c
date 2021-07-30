@@ -1,0 +1,273 @@
+html, body {
+    margin:0;
+    padding:0;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    font-size: 15px;
+    line-height: 1.5;
+    font-style: oblique;
+    font-weight: normal;
+    color:  #212529;
+    background-color:gainsboro;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+h1 {
+    font-size: 2rem;
+    color: #625678; 
+    margin-left: 7rem;
+    /* padding: 2rem; */
+    
+} 
+
+h2 {
+    font-size: 1.5rem;
+    color: #625678; 
+    margin-left: 7rem;
+    margin-bottom:  1rem;
+    
+}
+
+h3 {
+    font-size: 1rem;
+    color: darkslategrey;
+    margin-left: 7rem;
+    margin-top: 1.5rem;
+}
+
+
+
+.list {
+    width:55%;
+    height:60%;
+    color: black;
+    font-size: 1.25rem; 
+    font-weight: bold;
+    margin-left: 6rem;
+    margin-top:0;
+    
+
+}
+
+a[href$="s"] {
+    
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+.navbar {
+    display:block;
+    font-family: sans-serif;
+    text-align: center;
+    padding:0.5rem;
+    width:auto;
+    height: 1.5rem;
+    color: white;
+    background-color: #27675C; 
+
+}
+
+footer {
+    height: 2rem;
+    margin-bottom:0.5rem;
+    display: block;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    
+}
+
+.table-dark td, .table-dark th, .table-dark thead th {
+    border-color: black;
+    
+    
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid black;
+    
+}
+
+.table-dark {
+    color: #fff;
+    background-color: #212529;
+    
+}
+
+.table td, .table th {
+    border-top: 1px solid #dee2e6;
+    background-color: oldlace;
+    text-align: center;
+    ;
+}
+
+
+td {
+    display: table-cell;
+}
+
+th {
+    display: table-cell;
+    font-weight: bold;
+    
+}
+
+.table-dark {
+    color: #fff;
+    background-color: #212529;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+table {
+    
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+.alldatas {
+    margin-left: 7rem;
+
+}
+
+.allschedules {
+    margin-left: 7rem;
+}
+
+
+.button {
+    border-radius: 12px;
+    font-style: oblique;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    display: inline-block;
+
+}
+  
+
+.button {
+    transition-duration: 0.3s;
+}
+  
+.button:hover {
+    background-color: darkslategray;
+    color: white;
+} 
+
+#myButton1 {
+    margin-left: 7rem;
+    margin-top: 3rem; 
+    width: 7rem;
+    height: 3rem
+}
+
+#myButton2 {
+    margin-left: 0;
+    margin-top: 3rem; 
+    width: 7rem;
+    height: 3rem;
+}
+
+.input {
+    width: 8rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color:oldlace;
+    display: table-cell;
+  
+}
+
+label {
+    margin-left: 3rem;
+    padding: 12px 12px 12px 0;
+    display: table-cell;
+  
+}
+
+.form-field {
+    margin-left: 7rem;
+        
+}
+
+#create-btn {
+    margin-left: 8rem;
+    margin-top: 3rem; 
+    margin-bottom: 3rem;
+    width: 5rem;
+    height: 2.75rem;
+    background-color: darkseagreen;
+}
+
+ #user-button {
+    margin-left: 7rem;
+    margin-top: 3rem; 
+    margin-bottom: 3rem;
+    width: 5rem;
+    height: 2.75rem;
+    background-color: darkseagreen;
+}
+
+.button2 
+{
+    display: inline-block;
+    margin-left: 2.5rem;
+    background-color: #7CA59E; 
+    font-weight: bold;
+    color: white; 
+    border-radius: 12px;
+    width: 6rem;
+    height: 3rem;
+    font-style: oblique;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    
+}
+
+.button2 {
+    transition-duration: 0.3s;
+}
+  
+.button2:hover {
+    background-color: darkslategray;
+    color: white;
+} 
+
+.tochoose {
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+
+.paneladd {
+    display: flex;
+    justify-content: left;
+    position: relative;
+}
+
+#checkingbutton {
+    border-radius: 8px;
+    font-style: oblique;
+    font-weight: bolder;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    /* display: inline-block; */
+    transition-duration: 0.3s;
+    margin-left:2rem;
+    margin-top:0.5rem;
+    margin-bottom: 0.5rem;
+}
+  
+#checkingbutton:hover {
+    background-color: #c7c1c1;
+    color: darkslategray;
+} 

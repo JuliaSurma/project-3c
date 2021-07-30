@@ -1,0 +1,22 @@
+{
+    "git.ignoreLimitWarning": true
+}
+
+"sqltools.connection" : [
+{
+"previewLimit": 50,
+"server": "localhost",
+"port": 5432,
+"driver": "PostgreSQL",
+"name": "default",
+"database": "scheduleapp",
+"username": "",
+"password: ""
+
+}
+]
+{
+
+networks:
+            - integration-tests
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page | <%- title="My page" %> </title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <nav class="navbar ">
+      Welcome on Mr.Coffee App!
+      </nav>
+      <a href="/"><h1>Main App Page</h1></a>
+      <h2>Schedule website</h2>
+      <h2>
+        <td><%= user.firstname %></td>
+        <td><%= user.lastname %></td>
+        </h2>
+<section class = "alldatas">
+  <table class="table table-sm table-dar">
+    <thead>
+      <tr>
+        <th scope="col">userId</th>
+        <th scope="col">firstname</th><br>
+        <th scope="col">lastname</th>
+        <th scope="col">email</th>
+        <th scope="col">password</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+          <td><%= userId %></td>
+          <td><%= user.firstname %></td>
+          <td><%= user.lastname %></td>
+          <td><%= user.email %></td>
+          <td><%= user.password %></td>
+      </tr>
+        </tbody>
+        </table>
+      </section>
+    <footer>Copyright Mr Coffee | 2021 </footer>
+</body>
+</html>

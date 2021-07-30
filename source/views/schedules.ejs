@@ -1,0 +1,44 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page | <%- title="My page" %></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+      Welcome on Mr.Coffee App!
+      </nav>
+  <a href="/"><h1>Main App Page</h1></a>
+    <h2>Schedule website</h2>
+  <section class = "allschedules">
+    <table class="table table-sm table-dar">
+      <thead>
+        <tr>
+          <th scope="col">Name</th><br>
+          <th scope="col">Day</th>
+          <th scope="col">Start at</th>
+          <th scope="col">End at</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <% for(let i = 0; i < schedules.length; i++) { %>
+            <td><%= schedules[i].user_id %></td>
+            <td> <%= schedules[i].day %></td>
+            <td><%= schedules[i].start_at %></td>
+            <td><%= schedules[i].end_at %></td>
+        </tr>
+          <% } %> 
+          </tbody>
+          </table>
+          <button id="myButton2" class="button" >Create new schedule</button>
+        <script type="text/javascript">
+          document.getElementById("myButton2").onclick = function () {
+              location.href = "/schedules/new";
+          };
+        </script>
+        </section> 
+    <footer>Copyright Mr Coffee | 2021 </footer>
+</body>
+</html>
